@@ -32,7 +32,7 @@ cacheSolve <- function(input, ...) {
     ## get inverse matrix
     inverse <- input$get_inv()
     
-    ## if inverse is not null and return inverse
+    ## if inverse is not null, return inverse
     if(!is.null(inverse)) {
         message("cached")
         return(inverse)
